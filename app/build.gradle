@@ -1,0 +1,42 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    compileSdk config_version.compileSdk
+
+    defaultConfig {
+        applicationId "com.panda.medialab"
+        minSdk config_version.minSdk
+        targetSdk config_version.targetSdk
+        versionCode config_version.versionCode
+        versionName config_version.versionName
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    viewBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+
+    implementation "androidx.core:core-ktx:$dependencies_version.kotlin_version"
+    implementation "androidx.appcompat:appcompat:$dependencies_version.appcompat_version"
+    implementation "com.google.android.material:material:$dependencies_version.material_version"
+    implementation "androidx.constraintlayout:constraintlayout:$dependencies_version.constraintlayout_version"
+    implementation project(path: ':core')
+}

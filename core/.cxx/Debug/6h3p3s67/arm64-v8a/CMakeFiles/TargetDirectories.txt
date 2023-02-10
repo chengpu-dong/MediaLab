@@ -1,0 +1,3 @@
+/Users/dongchengpu/self/MediaLab/core/.cxx/Debug/6h3p3s67/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/dongchengpu/self/MediaLab/core/.cxx/Debug/6h3p3s67/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/dongchengpu/self/MediaLab/core/.cxx/Debug/6h3p3s67/arm64-v8a/CMakeFiles/core.dir

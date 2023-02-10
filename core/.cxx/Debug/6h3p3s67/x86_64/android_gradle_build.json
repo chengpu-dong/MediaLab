@@ -1,0 +1,42 @@
+{
+  "buildFiles": [
+    "/Users/dongchengpu/self/MediaLab/core/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/dongchengpu/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/dongchengpu/self/MediaLab/core/.cxx/Debug/6h3p3s67/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/dongchengpu/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/dongchengpu/self/MediaLab/core/.cxx/Debug/6h3p3s67/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "core::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "core",
+      "output": "/Users/dongchengpu/self/MediaLab/core/build/intermediates/cxx/Debug/6h3p3s67/obj/x86_64/libcore.so",
+      "runtimeFiles": [
+        "/Users/dongchengpu/self/MediaLab/core/src/main/jniLibs/x86_64/libavcodec.so",
+        "/Users/dongchengpu/self/MediaLab/core/src/main/jniLibs/x86_64/libswresample.so",
+        "/Users/dongchengpu/self/MediaLab/core/src/main/jniLibs/x86_64/libavutil.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/dongchengpu/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/dongchengpu/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

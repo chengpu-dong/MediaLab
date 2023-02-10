@@ -1,0 +1,56 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    compileSdk config_version.compileSdk
+
+    defaultConfig {
+        minSdk config_version.minSdk
+        targetSdk config_version.targetSdk
+
+        consumerProguardFiles "consumer-rules.pro"
+        externalNativeBuild {
+            cmake {
+                cppFlags '-std=c++14'
+                abiFilters 'arm64-v8a'
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    //指定ndk version
+    ndkVersion native_version.ndk_version
+    //指定cmake版本和cmake文件
+    externalNativeBuild {
+        cmake {
+            path file('src/main/cpp/CMakeLists.txt')
+            version native_version.cmake_version
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['jniLibs']
+        }
+    }
+}
+
+dependencies {
+
+    implementation "androidx.core:core-ktx:$dependencies_version.kotlin_version"
+    implementation "androidx.appcompat:appcompat:$dependencies_version.appcompat_version"
+    implementation "com.google.android.material:material:$dependencies_version.material_version"
+}

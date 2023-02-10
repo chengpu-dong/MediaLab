@@ -1,0 +1,7 @@
+Executable : /Users/dongchengpu/Library/Android/sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/Users/dongchengpu/self/MediaLab/core/.cxx/Debug/6h3p3s67/armeabi-v7a
+core
+jvmArgs : 
+

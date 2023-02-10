@@ -1,0 +1,9 @@
+ninja: Entering directory `/Users/dongchengpu/self/MediaLab/core/.cxx/Debug/6h3p3s67/arm64-v8a'
+[1/1] Linking CXX shared library /Users/dongchengpu/self/MediaLab/core/build/intermediates/cxx/Debug/6h3p3s67/obj/arm64-v8a/libcore.so
+FAILED: /Users/dongchengpu/self/MediaLab/core/build/intermediates/cxx/Debug/6h3p3s67/obj/arm64-v8a/libcore.so 
+: && /Users/dongchengpu/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/Users/dongchengpu/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -shared -Wl,-soname,libcore.so -o /Users/dongchengpu/self/MediaLab/core/build/intermediates/cxx/Debug/6h3p3s67/obj/arm64-v8a/libcore.so CMakeFiles/core.dir/core.cpp.o  /Users/dongchengpu/self/MediaLab/core/src/main/cpp/../jniLibs/arm64-v8a/libavcodec.so  /Users/dongchengpu/self/MediaLab/core/src/main/cpp/../jniLibs/arm64-v8a/libswresample.so  /Users/dongchengpu/self/MediaLab/core/src/main/cpp/../jniLibs/arm64-v8a/libavutil.so  -llog  -latomic -lm && :
+ld: error: /Users/dongchengpu/self/MediaLab/core/src/main/cpp/../jniLibs/arm64-v8a/libavcodec.so is incompatible with aarch64linux
+ld: error: /Users/dongchengpu/self/MediaLab/core/src/main/cpp/../jniLibs/arm64-v8a/libswresample.so is incompatible with aarch64linux
+ld: error: /Users/dongchengpu/self/MediaLab/core/src/main/cpp/../jniLibs/arm64-v8a/libavutil.so is incompatible with aarch64linux
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.

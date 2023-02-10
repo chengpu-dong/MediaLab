@@ -1,0 +1,21 @@
+ext {
+    config_version = [
+            compileSdk : 32,
+            minSdk     : 23,
+            targetSdk  : 33,
+            versionCode: 1,
+            versionName: "1.0"
+    ]
+
+    dependencies_version = [
+            kotlin_version          : "1.6.0",
+            appcompat_version       : "1.3.1",
+            material_version        : "1.8.0",
+            constraintlayout_version: "2.1.4"
+    ]
+
+    native_version = [
+            ndk_version  : "24.0.8215888",
+            cmake_version: '3.18.1'
+    ]
+}
