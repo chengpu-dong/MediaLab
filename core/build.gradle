@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+    namespace 'com.panda.core'
     compileSdk config_version.compileSdk
 
     defaultConfig {
