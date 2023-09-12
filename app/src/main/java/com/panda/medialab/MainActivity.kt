@@ -1,5 +1,6 @@
 package com.panda.medialab
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.panda.core.Test
@@ -16,5 +17,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         binding.text.text = Test.getString()
         binding.ffmpeg.text = Test.getFFmpegInfo()
+
+        binding.bPlayer.setOnClickListener {
+            startActivity(Intent(this, PlayerActivity::class.java))
+        }
     }
 }

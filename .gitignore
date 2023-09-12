@@ -2,3 +2,6 @@
 .idea
 local.properties
 core/.cxx/Debug
+build
+core/build
+player/build
