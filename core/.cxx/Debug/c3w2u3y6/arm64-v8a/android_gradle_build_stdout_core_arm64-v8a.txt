@@ -1,2 +1,0 @@
-ninja: Entering directory `/Users/dongchengpu/work/MediaLab/core/.cxx/Debug/c3w2u3y6/arm64-v8a'
-ninja: no work to do.

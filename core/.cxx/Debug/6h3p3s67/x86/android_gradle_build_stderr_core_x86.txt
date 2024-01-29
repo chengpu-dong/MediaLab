@@ -1,1 +1,0 @@
-ninja: error: '/Users/dongchengpu/self/MediaLab/core/src/main/jniLibs/x86/libavcodec.so', needed by '/Users/dongchengpu/self/MediaLab/core/build/intermediates/cxx/Debug/6h3p3s67/obj/x86/libcore.so', missing and no known rule to make it

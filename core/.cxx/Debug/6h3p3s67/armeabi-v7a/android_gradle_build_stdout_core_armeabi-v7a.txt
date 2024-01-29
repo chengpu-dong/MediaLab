@@ -1,1 +1,0 @@
-ninja: Entering directory `/Users/dongchengpu/self/MediaLab/core/.cxx/Debug/6h3p3s67/armeabi-v7a'

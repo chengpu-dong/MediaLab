@@ -1,9 +1,0 @@
-# ninja log v5
-0	586	1675758894	CMakeFiles/core.dir/core.cpp.o	1e6dfe50e6c1b0e4
-1	171	1675760330	/Users/dongchengpu/self/MediaLab/core/build/intermediates/cxx/Debug/2c1v175c/obj/arm64-v8a/libcore.so	1e36ff4e2a1295e9
-1	876	1675760812	CMakeFiles/core.dir/core.cpp.o	1e6dfe50e6c1b0e4
-876	1156	1675760812	/Users/dongchengpu/self/MediaLab/core/build/intermediates/cxx/Debug/2c1v175c/obj/arm64-v8a/libcore.so	1e36ff4e2a1295e9
-2	438	1675760868	CMakeFiles/core.dir/core.cpp.o	1e6dfe50e6c1b0e4
-438	636	1675760869	/Users/dongchengpu/self/MediaLab/core/build/intermediates/cxx/Debug/2c1v175c/obj/arm64-v8a/libcore.so	1e36ff4e2a1295e9
-0	892	1679467159	CMakeFiles/core.dir/core.cpp.o	1e6dfe50e6c1b0e4
-893	2234	1679467160	/Users/dongchengpu/self/MediaLab/core/build/intermediates/cxx/Debug/2c1v175c/obj/arm64-v8a/libcore.so	1e36ff4e2a1295e9
